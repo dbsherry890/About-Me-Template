@@ -19,14 +19,16 @@ const links = [
 
 const Linktree = () => {
   return (
-    <div className="font-sans bg-[#f5f5f5] text-[#333] align-middle w-full md:max-w-[400px] p-5 shadow shadow-slate-500 rounded-[10px] m-3">
-      <h1 className="text-[2em] mb-5 text-[#368cef] pl-4">My Links</h1>
-      <div className="flex flex-col gap-4">
+    <div className="font-sans bg-orange-50 text-[#333] align-middle md:max-w-lg p-3 shadow shadow-slate-500 rounded-[10px] m-3 grow">
+      <h1 className="text-[2em] mb-3 text-[#368cef] font-semibold font-serif">
+        My Links
+      </h1>
+      <div className="p-3 items-center grow">
         {links.map((link, index) => (
           <a
             key={index}
             href={link.url}
-            className="flex items-center bg-[#fff] text-[#333] p-4 rounded-[10px] shadow-md transition ease-in-out"
+            className="flex m-2 justify-center items-center bg-[#fff] text-[#333] p-4 rounded-[10px] shadow-md transition ease-in-out flex-grow border border-[#368cef] hover:bg-slate-100"
             target="_blank"
             rel="noopener noreferrer"
           >

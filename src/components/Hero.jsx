@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex items-center justify-center h-[64vh] p-6 bg-orange-300 text-white">
+    <section className="flex shrink items-center justify-center p-2 text-white h-auto">
       {/* Left Text Section */}
-      <div className="p-5 w-full md:w-1/2 text-center md:text-left lg:max-w-lg">
+      <div className="p-5 w-full md:w-1/2 text-center md:text-left lg:max-w-lg bg-orange-300">
         <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold mb-4">
           Mandy is the best neighbor ever
         </h1>
@@ -12,16 +12,16 @@ const Hero = () => {
           We out here making Mandy a website. We out here making Mandy a
           website.
         </p>
-        <a
+        {/* a
           href="#services"
           className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-50 transition"
         >
           Get Started
-        </a>
+        </a> */}
       </div>
 
       {/* Right Image Section */}
-      <div className="hidden md:block w-full md:w-1/2 lg:max-w-lg">
+      <div className="hidden md:block md:w-1/2 lg:max-w-lg">
         <img
           src="src/assets/blonde-hair.jpeg"
           alt="Haircut image"

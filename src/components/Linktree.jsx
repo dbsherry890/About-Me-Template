@@ -20,9 +20,7 @@ const links = [
 const Linktree = () => {
   return (
     <div className="font-sans bg-orange-50 text-[#333] align-middle md:max-w-lg p-3 shadow shadow-slate-500 rounded-[10px] m-3 grow">
-      <h1 className="text-[2em] mb-3 text-[#368cef] font-semibold font-serif">
-        My Links
-      </h1>
+      <h1 className="text-[2em] mb-3 font-semibold font-serif">My Links</h1>
       <div className="p-3 items-center grow">
         {links.map((link, index) => (
           <a

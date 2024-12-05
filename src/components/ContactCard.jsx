@@ -4,7 +4,7 @@ const ContactCard = ({ name, role, email, phone, avatar }) => {
       <div className="flex flex-col items-center p-4">
         <img
           className="w-28 h-28 rounded-full border-2 border-indigo-500 items-center"
-          src="src/assets/bisc-face.jpeg"
+          src={"/static/images/bisc-face.jpeg"}
           alt={`${name}'s avatar`}
         />
         <div className="ml-4">

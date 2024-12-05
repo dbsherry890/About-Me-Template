@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Right Image Section */}
       <div className="hidden md:block md:w-1/2 lg:max-w-lg">
         <img
-          src="src/assets/blonde-hair.jpeg"
+          src={"static/images/blonde-hair.jpeg"}
           alt="Haircut image"
           className="w-full h-auto object-cover rounded-lg shadow-xl max-h-[300px]"
         />

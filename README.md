@@ -6,7 +6,7 @@ Stylish, simple template for basic business information.
 
 To check out a sample, head to:
 
-[mandy-website-mu.vercel.app](mandy-website-mu.vercel.app)
+[mandy-website-mu.vercel.app](https://mandy-website-mu.vercel.app/)
 
 ## Documentation
 

@@ -4,10 +4,9 @@ import Linktree from "./Linktree";
 import Hero from "./Hero";
 import ContactCard from "./ContactCard";
 import About from "./About";
+import ImageCarousel from "./ImageCarousel";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <div className="bg-orange-300">
       <Header />
@@ -18,9 +17,12 @@ function App() {
         <ContactCard />
         <Linktree />
       </div>
-      <div className="sm:flex justify-center m-4 px-4 text-center border-b-2">
+      <div className="sm:flex justify-center px-4 text-center border-b-2">
         <About />
       </div>
+      {/* <div className="sm:flex justify-center px-4 text-center border-b-2">
+        <ImageCarousel />
+      </div> */}
     </div>
   );
 }

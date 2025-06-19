@@ -9,7 +9,7 @@ function Header() {
         <div className="flex justify-between items-center mx-2 font-serif">
           <a href="#" className="flex items-center">
             <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">
-              MANDY SITE TITLE
+              BISCUIT'S WEBSITE
             </span>
           </a>
 
@@ -30,22 +30,6 @@ function Header() {
                   About Me
                 </a>
               </li>
-              {/* <li>
-                <a
-                  href="#"
-                  className="block py-2 pr-4 pl-3 text-black md:text-gray-50 hover:text-gray-300 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0"
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 pr-4 pl-3 text-black md:text-gray-50 hover:text-gray-300 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 "
-                >
-                  Links
-                </a>
-              </li> */}
             </ul>
             <button
               className="mt-4 md:mt-0 rounded-full bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"

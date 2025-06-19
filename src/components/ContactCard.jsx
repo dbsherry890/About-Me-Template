@@ -8,18 +8,16 @@ const ContactCard = ({ name, role, email, phone, avatar }) => {
           alt={`${name}'s avatar`}
         />
         <div className="ml-4">
-          <h2 className="text-2xl font-semibold text-gray-800">
-            Mandy Neighbor
-          </h2>
-          <p className="text-lg text-gray-600">Hairstylist</p>
+          <h2 className="text-2xl font-semibold text-gray-800">Biscuit</h2>
+          <p className="text-lg text-gray-600">Good Girl</p>
         </div>
       </div>
       <div className="px-4 py-2 border-t">
         <p className="text-lg text-gray-700">
-          <span className="font-semibold">Email:</span> mandy@email.com
+          <span className="font-semibold">Email:</span> my@corgi.com
         </p>
         <p className="text-lg text-gray-700">
-          <span className="font-semibold">Phone:</span> 512-222-3333
+          <span className="font-semibold">Phone:</span> 512-222-2222
         </p>
       </div>
     </div>

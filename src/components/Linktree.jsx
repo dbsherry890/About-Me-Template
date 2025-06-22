@@ -2,17 +2,17 @@
 const links = [
   {
     title: "Main Website",
-    url: "https://www.myportfolio.com",
+    url: "https://dbsherry890.github.io/",
     icon: "🌐",
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/yourname",
+    url: "https://www.linkedin.com/in/dberysherry",
     icon: "🔗",
   },
   {
     title: "Instagram",
-    url: "https://www.instagram.com/yourusername",
+    url: "https://www.instagram.com/shesthatbisc/?igsh=emNsd2c1cXc0ajBn#",
     icon: "📸",
   },
 ];

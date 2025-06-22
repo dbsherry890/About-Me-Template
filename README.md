@@ -1,13 +1,15 @@
-# Simple Website Template
+# Website Template
 
-Stylish, simple template for basic business information.
+Perfect website template for a personal business, or your dog.
 
 ## Deployment
 
-To check out a sample, head to:
+To check out a sample, head to:<br>
+[biscy-website-mu.vercel.app](https://biscy-website-mu.vercel.app/)
 
-[mandy-website-mu.vercel.app](https://mandy-website-mu.vercel.app/)
-
-## Documentation
+## Techstack
 
 Made using Vite.js, TailwindCSS, and React
+<br>
+<br>
+<img src="public/screenshots/homepage.png" alt="HomePage">
